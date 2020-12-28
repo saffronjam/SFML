@@ -21,6 +21,11 @@ project "SFML"
 	{ 
 		"lib"
 	}
+	
+	linkoptions 
+	{ 
+		"-IGNORE:4006" 
+	}
 
 	links 
 	{
